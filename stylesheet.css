@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: "Lucida Handwriting", cursive;
+  }
+
+
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(47, 79, 72, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 2px 2px 10px darkslategray;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  .foto{
+      width: 300px;
+  }
+
+  .top-wrapper {
+    padding: 100px 0 0 0;
+    background-color: ivory;
+    color:darkslategray;
+    text-align: center;
+  }
+
+  .desc-wrapper{
+      padding: 100px 25% 100px 25%;
+      text-align: center;
+      background-color: darkslategray;
+      background-position: top;
+      color: ivory;
+  }
+
+  .welcome{
+      font-size: 28px;
+  }
+
+  .services {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: ivory;
+    text-align: center;
+    color: darkslategray;
+  }
+
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+  }
+
+  .contents {
+    display: flex;
+  }
+
+  .content{
+    width: 50%;
+    background-color: white;
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 5px darkslategray;
+    padding-bottom: 50px;
+  }
+
+  .content-pad{
+    margin-top: 50px;
+  }
+
+  .tool{
+    margin-top: 10px;
+  }
+
+  .message{
+    background-color: ivory;
+    text-align: center;
+    color: darkslategray;
+    padding-bottom: 80px;
+    text-decoration: none;
+  }
+
+  .heading-message {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: ivory;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .btnmessage {
+    padding: 15px 40px;
+    color: darkslategray;
+    background-color: ivory;
+    cursor: pointer;
+    border: 1px solid darkslategray;
+    transition: all 0.5s;
+    border-radius: 10px;
+  }
+  
+  .btnmessage:hover{
+    color: ivory;
+    background-color: darkslategray;
+  }
+
+  .btn-message a{
+    text-decoration: none;
+  }
+
+  footer{
+    background-color: darkslategray;
+    color: ivory;
+    text-align: center;
+    padding: 80px 0 20px 0;
+  }
+
+  .img-footer{
+    width: 100px;
+  }
+
+  .icon{
+    margin-top: 60px;
+  }
+
+  .icon a{
+    margin: 10px;
+    color: ivory;
+    transition: all 0.5s;
+  }
+
+  .icon a:hover{
+    opacity: 0.5;
+  }
+
+  .copyright{
+    margin-top: 50px;
+  }

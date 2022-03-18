@@ -1,0 +1,38 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+      .services{
+          padding-bottom: 30px;
+      }
+    .contents{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .content {
+      width: 95%;
+      padding: 10px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    
+    .btnmessage {
+      width: 100%;
+    }
+    
+    .desc-wrapper{
+        padding: 80px 5% 80px 5%;
+    }
+    
+    .heading-message{
+        padding-top: 10px;
+    }
+
+    .footer{
+        padding-top: 40px;
+    }
+  }
